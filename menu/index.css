@@ -1,0 +1,109 @@
+*, html {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+  background-color: #0f151a;
+  color: #e1e1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Outfit", Sans-Serif;
+  padding-top: 4rem;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.logo {
+  width: 10rem;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: top;
+}
+
+.sosmed i {
+  font-size: 1.5rem
+  color: #8787a3;
+}
+
+.sosmed i:hover {
+  color: white;
+}
+
+.sosmed a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-card {
+  display: flex;
+  background-color: #0f151a;
+  padding: 1rem;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 8px 10px 0 #0f0f25;
+  border: 2px solid #2d2d56;
+}
+
+.link-card:hover {
+  border: 2px solid orange;
+}
+
+.link-icon {
+  background-image: linear-gradient(to top, red, orange);
+  padding: 0.5rem;
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+ /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.link-icon i {
+  color: white;
+}
+
+.link-action {
+  color: #ffaa00;
+  cursor: pointer;
+}
+
+.sosme li {
+  list-style: none;
+}
+
+.sosme {
+  width: 80%;
+  max-width: 40rem;
+}
+
+.sosme li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.sosme {
+  margin-top: 1rem;;
+}
+
+.copyright {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-direction: column;
+  color: #8787A3;
+  font-size: 0.75rem;
+}
+
+.copyright img {
+  width: 2rem;
+  opacity: 0.4;
+}
